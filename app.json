@@ -1,0 +1,19 @@
+{
+  "name": "V2ray deploy",
+  "description": "Deploy V2ray to Heroku.",
+  "keywords": ["V2ray"],
+  "env": {
+    "VER": {
+       "value": "4.9"
+     }, 
+    "UUID": {
+       "value": "4890bd47-5180-4b1c-9a5d-3ef686543112"
+     },
+    "PORT": {
+       "value": "8080"
+     }
+  },
+  "website": "https://github.com/ki8852/v2ray-heroku-undone",
+  "repository": "https://github.com/ki8852/v2ray-heroku-undone",
+  "stack": "container"
+ }
