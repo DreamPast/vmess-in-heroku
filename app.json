@@ -1,17 +1,15 @@
 {
-  "name": "V2ray deploy",
+  "name": "V2ray",
   "description": "Deploy V2ray to Heroku.",
   "keywords": ["V2ray"],
   "env": {
-    "VER": {
-       "value": "4.9"
-     }, 
-    "UUID": {
-       "value": "4890bd47-5180-4b1c-9a5d-3ef686543112"
-     },
-    "PORT": {
-       "value": "8080"
-     }
+	"V2_CONF": {
+		"description" : "config.json"
+	},
+	"VER" : {
+		"description": "version",
+       "value": "latest"
+	}
   },
   "website": "https://github.com/DreamPast/vmess-in-heroku",
   "repository": "https://github.com/DreamPast/vmess-in-heroku",
